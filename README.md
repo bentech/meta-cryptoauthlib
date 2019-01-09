@@ -8,22 +8,12 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+-
 
 Patches
 =======
 
 Please submit any patches against the meta-cryptoauthlib layer via Github
-
-Maintainer: Ben Swanson <benswanson1@gmail.com>
 
 Table of Contents
 =================
