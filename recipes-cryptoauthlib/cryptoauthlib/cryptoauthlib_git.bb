@@ -2,14 +2,14 @@ SUMMARY = "bitbake-layers recipe"
 DESCRIPTION = "Recipe for CryptoAuthLib https://github.com/MicrochipTech/cryptoauthlib"
 LICENSE = "MIT"
 
-PV = "20190124"
+PV = "20211006"
 
-SRCREV = "9dbb3b76404ac32b52e9e46509775dd1bc1a4f70"
-SRC_URI = "git://github.com/MicrochipTech/cryptoauthlib.git;branch=pkcs11"
-SRC_URI[md5sum] = "ac317fa31493d2848ad7b35cbae9ce31"
-SRC_URI[sha256sum] = "da1d45faf327d3328257de5588c42065b235c2eea19b729eb1bd7d6a297918bc"
+SRCREV = "055dd4afafb019db1f4d61880aa441832139faa2"
+SRC_URI = "git://github.com/MicrochipTech/cryptoauthlib.git;branch=main"
+SRC_URI[md5sum] = "00f3be6f53202117cb514ccfb7142e0a"
+SRC_URI[sha256sum] = "ee8ee192cf7e2f105808aa634e1f9b422c8227d40a457d11202db7fea1d17d17"
 
-LIC_FILES_CHKSUM = "file://../license.txt;md5=b5b48730d6f3c3c31c53274314051b47"
+LIC_FILES_CHKSUM = "file://../license.txt;md5=2b56c229b6ececc3a14d533a1d70029b"
 
 DEPENDS += "udev"
 
